@@ -14,7 +14,7 @@ This repository is the official implementation of the paper ["FiNE: Fine-grained
 ## Requirements
 
 ```bash
-git clone <REPOSITORY_URL>
+git clone https://github.com/opanhw/fine-unified-editing-code.git
 cd fine-unified-editing-code
 conda create -n unified-editing python=3.11
 conda activate unified-editing
