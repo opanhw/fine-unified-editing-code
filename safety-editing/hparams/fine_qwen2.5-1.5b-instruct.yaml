@@ -1,0 +1,29 @@
+alg_name: "FINE"
+model_name: ""  # USER: local model dir or Hugging Face model id
+device: 0
+epochs: 20
+lr: 5e-3
+beta: 0.1
+gamma: 10
+theta: 1
+neuron_num: 5
+safety_neuron_num: 10
+early_stop_prob: 0.6
+last_layer: 3
+add_eos: false
+rewrite_module_tmp: "model.layers.{}.mlp.down_proj"
+layer_module_tmp: "model.layers.{}"
+mlp_module_tmp: "model.layers.{}.mlp"
+attn_module_tmp: "model.layers.{}.self_attn"
+ln_f_module: "model.norm"
+lm_head_module: "lm_head"
+mom2_dataset: "wikipedia"
+mom2_n_samples: 100000
+mom2_dtype: "float32"
+model_parallel: true
+fp16: false
+suffix_system_prompt: "If the user's request is reasonable, give the correct answer. Please give the right response:"
+max_length: 2048
+max_output_length: 600
+
+
