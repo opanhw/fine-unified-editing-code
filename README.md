@@ -123,3 +123,17 @@ For OpenCompass, edit `safety-editing/scripts/opencompass_eval.py` to set the mo
 ## Acknowledgements
 
 Parts of this codebase build on public software and research tooling, including [EasyEdit](https://github.com/zjunlp/EasyEdit) and [Skill-Neuron](https://github.com/THU-KEG/Skill-Neuron)
+
+## Citation
+
+If you find this code useful, please kindly cite our work as:
+
+```bibtex
+@article{yang2026fine,
+  title={FiNE: Fine-grained Neuron-level Model Editing for Reliable and Safe LLMs},
+  author={Yang, Xun and Pan, Haowen and Wang, Xiaozhi and Cao, Yixin and Li, Juanzi and Wang, Meng},
+  journal={IEEE Transactions on Pattern Analysis and Machine Intelligence},
+  year={2026},
+  publisher={IEEE}
+}
+```
